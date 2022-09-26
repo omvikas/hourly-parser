@@ -14,7 +14,7 @@ public class ApxDataLoader {
 
   @Value("${apxDataLoader.url}") String urlStr;
 
-  public URL url;
+  URL url;
 
   public void init() throws MalformedURLException {
     if (this.url == null) {
