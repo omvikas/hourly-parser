@@ -8,16 +8,16 @@ import lombok.extern.slf4j.Slf4j;
 import net.sympower.cityzen.apxrefactored.model.Quote;
 import net.sympower.cityzen.apxrefactored.model.QuoteResponse;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
-import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-@Component
+@Configuration
 @Slf4j
 public class ApxDataLoaderRefactored {
 

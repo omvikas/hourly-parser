@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 public class ApxDataLoaderRefactoredTest {
 
     @Test
-    public void load() throws Exception {
+    public void loadFile() {
 
         ApxDataLoaderRefactored apxDataLoader = new ApxDataLoaderRefactored();
         apxDataLoader.setFileStr(getClass().getResource("apx-data.json").getFile());
